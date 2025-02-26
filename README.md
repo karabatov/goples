@@ -1,8 +1,10 @@
 # Goples
 
-Goples is a small Windows tray app that calls a Discord channel webhook when it detects that the specified process is running.
+Goples is a small Windows tray app that calls a Discord channel webhook when it detects that the specified program is running.
 
-It checks if the process is running once a minute, but only sends the message once while the process is continuously running. If you exit the process and start it again, it will send a new message.
+It checks once a minute if the program runs and only sends the message once as long as the program keeps running. If you exit the program and start it again, Goples will send a new message.
+
+Discord does not need to be open for this to work.
 
 ## Installation
 
